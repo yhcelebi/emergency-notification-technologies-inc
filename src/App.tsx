@@ -16,7 +16,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/emergency-notification-technologies-inc/" element={<Home />} />
           <Route path="/emergency-notification-technologies-inc/about-us" element={<AboutUs />} />
-          <Route path="/emergency-notification-technologies-inc/*" element={<NotFound />} />
+          <Route path="/*" element={<NotFound />} />
           <Route path="/emergency-notification-technologies-inc/request-a-demo" element={<RequestADemo />} />
           {/* You can add more routes for additional pages */}
         </Routes>
