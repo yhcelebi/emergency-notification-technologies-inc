@@ -14,10 +14,10 @@ const App: React.FC = () => {
         {/* Your Navbar or other common components can go here */}
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/*" element={<NotFound />} />
-          <Route path="/request-a-demo" element={<RequestADemo />} />
+          <Route path="/emergency-notification-technologies-inc/" element={<Home />} />
+          <Route path="/emergency-notification-technologies-inc/about-us" element={<AboutUs />} />
+          <Route path="/emergency-notification-technologies-inc/*" element={<NotFound />} />
+          <Route path="/emergency-notification-technologies-inc/request-a-demo" element={<RequestADemo />} />
           {/* You can add more routes for additional pages */}
         </Routes>
         <Footer />
