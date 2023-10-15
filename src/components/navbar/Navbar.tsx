@@ -51,36 +51,36 @@ export function Navbar() {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <a href="/emergency">Emergency</a>
+                  <a href="/emergency-notification-technologies-inc/emergency">Emergency</a>
                 </li>
                 <li>
-                  <a href="/commercial">Commercial</a>
+                  <a href="/emergency-notification-technologies-inc/commercial">Commercial</a>
                 </li>
                 <li>
-                  <a href="/pricing">Pricing</a>
+                  <a href="/emergency-notification-technologies-inc/pricing">Pricing</a>
                 </li>
                 <li>
-                  <a href="/about-us">About Us</a>
+                  <a href="/emergency-notification-technologies-inc/about-us">About Us</a>
                 </li>
               </ul>
             </div>
-            <a href="/" className="btn btn-ghost normal-case text-xl">
+            <a href="/emergency-notification-technologies-inc/" className="btn btn-ghost normal-case text-xl">
               ENT Inc.
             </a>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a href="/emergency">Emergency</a>
+                <a href="/emergency-notification-technologies-inc/emergency">Emergency</a>
               </li>
               <li>
-                <a href="/commercial">Commercial</a>
+                <a href="/emergency-notification-technologies-inc/commercial">Commercial</a>
               </li>
               <li>
-                <a href="/pricing">Pricing</a>
+                <a href="/emergency-notification-technologies-inc/pricing">Pricing</a>
               </li>
               <li>
-                <a href="/about-us">About Us</a>
+                <a href="/emergency-notification-technologies-inc/about-us">About Us</a>
               </li>
             </ul>
           </div>
@@ -115,7 +115,7 @@ export function Navbar() {
                 </label>
               </button>
             </div>
-            <a href="/request-a-demo" className="btn">Request a Demo</a>
+            <a href="/emergency-notification-technologies-inc/request-a-demo" className="btn">Request a Demo</a>
           </div>
         </div>
       </div>
