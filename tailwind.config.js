@@ -12,13 +12,6 @@ export default {
           to: { transform: "translateX(-100%)" },
         },
       },
-      colors: {
-        primary: "E63946",
-        secondary: "F1FAEE",
-        tertiary: "A8DADC",
-        quaternary: "457B9D",
-        quinary: "1D3557",
-      },
     },
   },
   plugins: [require("daisyui")],

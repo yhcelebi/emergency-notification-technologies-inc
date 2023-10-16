@@ -1,1 +1,17 @@
+.request-a-demo-hero {
+    background-image: url(https://img.freepik.com/free-vector/global-networking-technology-background-digital-communication_53876-119502.jpg?w=1800&t=st=1697456724~exp=1697457324~hmac=543c488d90edc5d80152fb7b6ab7319cb5fbf03cc6340029d82b685f870130e8);
+    background-size: cover;
+    background-position: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
 
+.hero-container-demo {
+  height: 100vh;
+  justify-content: center;
+  padding: 10px 20px 10px 20px;
+  margin: auto;
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
