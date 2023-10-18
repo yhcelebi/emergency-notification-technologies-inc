@@ -2,7 +2,6 @@ import "./Home.css";
 import { CustomersScroller } from "../customers-scroller/CustomersScroller";
 import { Hero } from "../hero/Hero";
 import { MainPageCard } from "../cards/MainPageCard";
-import { PhoneMockup } from "../mockups/PhoneMockup";
 
 export function Home() {
   return (
