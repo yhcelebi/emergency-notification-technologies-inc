@@ -64,7 +64,7 @@ export function CustomersScroller() {
                     </li>
                 </ul>
             </div>
-            <div className="customers-title container-2xl justify-center mb-20">
+            <div className="customers-title container-2xl justify-center mb-20 text-slate-400">
                 Trusted by the best
             </div>
         </>
