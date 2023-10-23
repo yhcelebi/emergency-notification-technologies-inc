@@ -7,6 +7,7 @@ import { Footer } from "./components/footer/Footer";
 import { NotFound } from "./components/errors/not-found/NotFound";
 import { RequestADemo } from "./components/request-a-demo/RequestADemo";
 import { ToggleTheme } from "./components/toggle-theme/ToggleTheme";
+import { Emergency } from "./components/emergency/Emergency";
 
 const App: React.FC = () => {
 
@@ -18,17 +19,20 @@ const App: React.FC = () => {
         <Navbar />
         <Routes>
           <Route
-            path="/emergency-notification-technologies-inc/"
+            path="/"
             element={<Home />}
           />
           <Route
-            path="/emergency-notification-technologies-inc/about-us"
+            path="/about-us"
             element={<AboutUs />}
           />
           <Route path="/*" element={<NotFound />} />
           <Route
-            path="/emergency-notification-technologies-inc/request-a-demo"
+            path="/request-a-demo"
             element={<RequestADemo />}
+          />
+          <Route path="/emergency"
+          element={<Emergency />}
           />
           {/* You can add more routes for additional pages */}
         </Routes>

@@ -30,43 +30,37 @@ export function Navbar() {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <a href="/emergency-notification-technologies-inc/emergency">Emergency</a>
+                  <a href="/emergency">Emergency</a>
                 </li>
                 <li>
-                  <a href="/emergency-notification-technologies-inc/commercial">Commercial</a>
+                  <a href="/commercial">Commercial</a>
                 </li>
                 <li>
-                  <a href="/emergency-notification-technologies-inc/pricing">Pricing</a>
-                </li>
-                <li>
-                  <a href="/emergency-notification-technologies-inc/about-us">About Us</a>
+                  <a href="/about-us">About Us</a>
                 </li>
               </ul>
             </div>
-            <a href="/emergency-notification-technologies-inc/" className="btn btn-ghost normal-case text-xl">
+            <a href="/" className="btn btn-ghost normal-case text-xl">
               ENT Inc.
             </a>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a href="/emergency-notification-technologies-inc/emergency">Emergency</a>
+                <a href="/emergency">Emergency</a>
               </li>
               <li>
-                <a href="/emergency-notification-technologies-inc/commercial">Commercial</a>
+                <a href="/commercial">Commercial</a>
               </li>
               <li>
-                <a href="/emergency-notification-technologies-inc/pricing">Pricing</a>
-              </li>
-              <li>
-                <a href="/emergency-notification-technologies-inc/about-us">About Us</a>
+                <a href="/about-us">About Us</a>
               </li>
             </ul>
           </div>
           <div className="navbar-end mr-3">
             <div className="mr-3">        
             </div>
-            <a href="/emergency-notification-technologies-inc/request-a-demo" className="btn">Request a Demo</a>
+            <a href="/request-a-demo" className="btn">Request a Demo</a>
           </div>
         </div>
       </div>
