@@ -2,6 +2,7 @@ import "./Home.css";
 import { CustomersScroller } from "../customers-scroller/CustomersScroller";
 import { Hero } from "../hero/Hero";
 import { useState } from "react";
+import { Email } from "../smtp/smtp";
 
 export function Home() {
   const [fullName, setFullName] = useState("");
@@ -10,11 +11,13 @@ export function Home() {
   const [isSent, setIsSent] = useState(false);
   const [isSending, setIsSending] = useState(false);
 
-  const sendEmail = () => {
+  const sendEmail = (e: any) => {
+    e.preventDefault();
     setIsSending(true);
+
     Email.send({
       SecureToken: "09366e5c-4b32-4b90-aa1e-0aa64cb4f1de",
-      To: ["yhcelebi@gmail.com", "proyusufgaming3402@gmail.com", "hasari.celebi@gmail.com", "menecelebi@gmail.com"],
+      To: ["yhcelebi@gmail.com"],
       From: "yhcelebi@gmail.com",
       Subject: `A message from Emergency Notification Technologies Inc. webpage from ${fullName} and his email: ${email}`,
       Body: message,
