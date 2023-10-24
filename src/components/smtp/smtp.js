@@ -40,4 +40,4 @@ const Email = {
   },
 };
 
-export {Email};
+export default {Email};

@@ -2,7 +2,7 @@ import "./Home.css";
 import { CustomersScroller } from "../customers-scroller/CustomersScroller";
 import { Hero } from "../hero/Hero";
 import { useState } from "react";
-import { Email } from "../smtp/smtp";
+import { Email } from "../smtp/smtp.ts";
 
 export function Home() {
   const [fullName, setFullName] = useState("");
@@ -16,6 +16,8 @@ export function Home() {
     setIsSending(true);
 
     Email.send({
+      nocache: Math.floor(1e6 * Math.random() + 1),
+      Action: "Send",
       SecureToken: "09366e5c-4b32-4b90-aa1e-0aa64cb4f1de",
       To: ["yhcelebi@gmail.com"],
       From: "yhcelebi@gmail.com",
@@ -28,7 +30,7 @@ export function Home() {
         setIsSending(false);
       },
       (error: any) => console.log(error)
-      );
+    );
   };
 
   return (
@@ -160,7 +162,9 @@ export function Home() {
               ></textarea>
             </div>
           </div>
-          <p className={isSent ? "text-green-500 mt-4": "mt-4"}>{isSent ? "Sended successfully" : ""}</p>
+          <p className={isSent ? "text-green-500 mt-4" : "mt-4"}>
+            {isSent ? "Sended successfully" : ""}
+          </p>
           {isSending ? (
             <div className="w-46 max-w-4xl mt-5 flex justify-center items-center">
               <span className="loading loading-spinner loading-lg"></span>
