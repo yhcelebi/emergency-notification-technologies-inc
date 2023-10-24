@@ -4,7 +4,7 @@ const Email = {
         a.nocache = Math.floor(1e6 * Math.random() + 1);
         a.Action = "Send";
         var t = JSON.stringify(a);
-        Email.ajaxPost("https://smtpjs.com/v3/smtpjs.aspx?", t, function (e) {
+        Email.ajaxPost("https://smtpjs.com/v3/smtpjs.aspx?", t, function (e: any) {
           n(e);
         });
       });
