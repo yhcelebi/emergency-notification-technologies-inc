@@ -17,8 +17,8 @@ export function Hero() {
             <h2 className="text-3xl text-slate-200 font-bold mt-3">
               A Simple Solution For Emergency and Commercial Mobile Messaging
             </h2>
-            <button className="btn btn-primary mt-5 mr-5">Request a Demo</button>
-            <button className="btn btn mt-5">Learn More</button>
+            <a href="/contact-us"><button className="btn btn-primary mt-5 mr-5">Request a Demo</button></a>
+            <a href="/commercial"><button className="btn btn mt-5">Learn More</button></a>
           </div>
         </div>
       </div>

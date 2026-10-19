@@ -8,32 +8,24 @@ import { NotFound } from "./components/errors/not-found/NotFound";
 import { RequestADemo } from "./components/request-a-demo/RequestADemo";
 import { ToggleTheme } from "./components/toggle-theme/ToggleTheme";
 import { Emergency } from "./components/emergency/Emergency";
+import { ContactUs } from "./components/contact-us/ContactUs";
+import { Commercial } from "./components/commercial/Commercial";
 
 const App: React.FC = () => {
-
   return (
     <Router>
       <div className="static">
         {/* Your Navbar or other common components can go here */}
-        <ToggleTheme className="bg-base-300 rounded-lg fixed bottom-5 right-5"/>
+        <ToggleTheme className="bg-base-300 rounded-lg fixed bottom-5 right-5" />
         <Navbar />
         <Routes>
-          <Route
-            path="/"
-            element={<Home />}
-          />
-          <Route
-            path="/about-us"
-            element={<AboutUs />}
-          />
+          <Route path="/" element={<Home />} />
+          <Route path="/about-us" element={<AboutUs />} />
           <Route path="/*" element={<NotFound />} />
-          <Route
-            path="/request-a-demo"
-            element={<RequestADemo />}
-          />
-          <Route path="/emergency"
-          element={<Emergency />}
-          />
+          <Route path="/request-a-demo" element={<RequestADemo />} />
+          <Route path="/emergency" element={<Emergency />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/commercial" element={<Commercial />} />
           {/* You can add more routes for additional pages */}
         </Routes>
         <Footer />

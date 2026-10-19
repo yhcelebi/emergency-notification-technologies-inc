@@ -2,7 +2,6 @@ import "./Navbar.css";
 
 export function Navbar() {
 
-
   return (
     <>
       <div className="">
@@ -60,7 +59,7 @@ export function Navbar() {
           <div className="navbar-end mr-3">
             <div className="mr-3">        
             </div>
-            <a href="/request-a-demo" className="btn">Request a Demo</a>
+            <a href="/contact-us" className="btn">Request a Demo</a>
           </div>
         </div>
       </div>
